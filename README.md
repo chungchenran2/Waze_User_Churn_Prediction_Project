@@ -30,6 +30,8 @@ The dataset used in this project contains synthetic data created for this projec
 
 ## Modeling and Evaluation
 
+An XGBoost model comprising 300 decision trees was used to determine feature importance in who would churn or not. The below plot shows that the mean number of kilometers driven on each driving day in the last month, the number of days since the user signed up for the app, and the percentage of each user's total sessions that were logged in their last month of use were the Top 3 most important factors in determining a user who will churn from a user who will retain. The overall model performed with 81.1% accuracy, 42.4% precision, and 18.1% recall. 
+![Waze XGBoost Feature Importance Plot](https://github.com/chungchenran2/Waze_User_Churn_Prediction_Project/blob/main/Images/Waze_XGBoost_Feature_Importance_Plot.png)
 
 ## Conclusion
 
