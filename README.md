@@ -35,3 +35,4 @@ An XGBoost model comprising 300 decision trees was used to determine feature imp
 
 ## Conclusion
 
+This model can benefit Waze leadership in determining whether a user will churn or retain the app, identifying factors behind user churn, and help leadership make informed business decision to prevent user churn as part of the effort to increase growth of Waze's business. In the future, adding more information on a user and their drives while using the app may also be beneficial in helping the stakeholder address their business problem.
