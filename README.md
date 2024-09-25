@@ -18,6 +18,15 @@ The insights of this project will help Waze leadership optimize the company’s 
 
 ## Data Understanding
 
+The dataset used in this project contains synthetic data created for this project in partnership with Waze. The data consisted of around 15k Waze users who has either churned or retained (continued using the app). The features included information on a user, such as whether they churned or retained, the number of occurrences a user opens the app in the last month, the number of occurrences of driving at least 1 km during the last month, and so on. A few new features were engineered to be used for modeling, they are as follows:
+
+* km_per_driving_day, the mean number of kilometers driven on each driving day in the last month for each user.
+* percent_sessions_in_last_month, the percentage of each user's total sessions that were logged in their last month of use.
+* professional_driver, a binary feature that is 1 for users who had 60 or more drives and drove on 15+ days in the last month.
+* total_sessions_per_day, the mean number of sessions per day since onboarding.
+* km_per_hour, the mean kilometers per hour driven in the last month.
+* km_per_drive, the mean number of kilometers per drive made in the last month for each user.
+* percent_of_sessions_to_favorite, the percentage of total sessions that were used to navigate to one on the users' favorite places.
 
 ## Modeling and Evaluation
 
